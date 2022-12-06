@@ -1,0 +1,14 @@
+.container {
+    content: "";
+    background-color: #ebeef1;
+    position: absolute;
+    width: 100vw;
+    height: 100wh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  [data-dark="dark"]{
+    --background:#000;
+    --text-primary:#fff
+  }

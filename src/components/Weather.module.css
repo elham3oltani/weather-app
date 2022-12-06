@@ -1,0 +1,45 @@
+.Form_weather h2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  input {
+    border: none;
+    background-color: #e0e0e0;
+    width: 290px;
+    outline: none;
+    margin: 1.5rem 0rem 1rem 0rem;
+    padding: 1rem;
+    border-radius: 50px;
+    border: none;
+    box-shadow: inset 8px 10px 5px -1px rgba(10, 99, 169, 0.16),
+      inset -8px -10px 10px -1px rgba(255, 255, 255, 0.7);
+  }
+  input::placeholder {
+    color: #000;
+    opacity: 0.9;
+  }
+  
+  button {
+    width: 100px;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    margin: 15px;
+    color: #1348da;
+    background: #ebeef1;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+  }
+  
+  @media screen and (min-width: 320px) {
+    input {
+      width: 230px !important;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    input {
+      width: 280px;
+    }
+  }
+  
